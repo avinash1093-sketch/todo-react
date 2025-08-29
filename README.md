@@ -12,14 +12,14 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 # Features to be Added:
--Mark as completed: Allow users to check/uncheck tasks as done.
--Edit todo: Enable editing the text of a todo item.
--Due date: Add an optional due date for each task.
--Filter tasks: Show all, only completed, or only active tasks.
--Persist data: Save todos to localStorage so they remain after refresh.
--Bulk delete: Option to delete all completed tasks.
--Reorder tasks: Drag and drop to change the order.
--Task priority: Set priority levels (high, medium, low).
--Animations: Add smooth transitions for adding/removing tasks.
--Dark mode: Toggle between light and dark themes.
--Responsive design: Make it look good on mobile devices.
+ - Mark as completed: Allow users to check/uncheck tasks as done.
+ - Edit todo: Enable editing the text of a todo item.
+ - Due date: Add an optional due date for each task.
+ - Filter tasks: Show all, only completed, or only active tasks.
+ - Persist data: Save todos to localStorage so they remain after refresh.
+ - Bulk delete: Option to delete all completed tasks.
+ - Reorder tasks: Drag and drop to change the order.
+ - Task priority: Set priority levels (high, medium, low).
+ - Animations: Add smooth transitions for adding/removing tasks.
+ - Dark mode: Toggle between light and dark themes.
+ - Responsive design: Make it look good on mobile devices.
