@@ -23,3 +23,7 @@ If you are developing a production application, we recommend using TypeScript wi
  - Animations: Add smooth transitions for adding/removing tasks.
  - Dark mode: Toggle between light and dark themes.
  - Responsive design: Make it look good on mobile devices.
+
+# Features Added:
+ - Add To do list.
+ - Delete To do list.
