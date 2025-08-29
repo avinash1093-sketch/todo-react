@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-input {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  max-width: 400px;
+  text-align: center;
+}
+
+.todo-input h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #2d3748;
+  letter-spacing: 1px;
+}
+
+.input-text {
+  width: 70%;
+  padding: 0.7rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.input-text:focus {
+  border-color: #3182ce;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  background: linear-gradient(90deg, #3182ce 0%, #63b3ed 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2b6cb0 0%, #4299e1 100%);
+}
+
+.todo-list {
+  background: #fff;
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 1.1rem;
+  color: #2d3748;
+  transition: background 0.2s;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-list li:hover {
+  background: #ebf8ff;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.delete-btn:hover svg path {
+  fill: #e53e3e;
+}
